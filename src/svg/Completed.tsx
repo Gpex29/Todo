@@ -3,7 +3,7 @@ interface Props {
   height: string
 }
 
-const CompleteSVG = ({width, height}: Props) => {
+const CompletedSVG = ({width, height}: Props) => {
   return (
     <svg
       width={width}
@@ -31,4 +31,4 @@ const CompleteSVG = ({width, height}: Props) => {
   );
 };
 
-export default CompleteSVG;
+export default CompletedSVG;

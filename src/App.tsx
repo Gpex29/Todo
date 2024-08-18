@@ -24,7 +24,7 @@ const App: React.FC = () => {
   return (
     <div className='bg-rose-50 min-h-screen flex flex-col items-center'>
       <h1 className='text-6xl text-center text-red-200 mb-8'>todos</h1>
-      <div className='bg-white w-screen md:w-1/2 flex flex-col justify-center border-2 rounded-lg'>
+      <div className='bg-white w-screen lg:w-1/2 flex flex-col justify-center border-2 rounded-lg'>
         <Header addTodo={addTodo} />
         <Main todos={visibleTodos()} toggleTodo={toggleTodo} />
         <Footer length={length} state={state} setState={setState} clearCompletedTodos={clearCompletedTodos} />

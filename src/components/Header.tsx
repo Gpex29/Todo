@@ -13,7 +13,10 @@ export const Header: React.FC<TodoInputProps> = ({ addTodo }) => {
   };
 
   return (
-    <form className='border-b-2 p-4 space-x-40' onSubmit={handleSubmit}>
+    <form
+      className='border-b-2 p-4 space-x-40 sticky top-0 bg-white'
+      onSubmit={handleSubmit}
+    >
       <input
         type='text'
         value={input}
